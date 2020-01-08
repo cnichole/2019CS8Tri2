@@ -97,15 +97,19 @@
 
         }
 
-        #star{
-             background: url('4pointStarW.png') no-repeat;
-
+        .star{
+             background: url('4pointStarW.png') repeat;
+             background-size: contain;
+             height: 15px;
+             width: 15px;
+            position: absolute;
         }
 
 
 
 
 </style>
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
     </head>
         <body>
          <div id='ground'></div>
@@ -116,8 +120,7 @@
          </div>
          <div class='roof'></div>
          <div id='moon'></div>
-         <div id='star'></div>
-
+        <script type="text/javascript" src="star.js"></script>
          </body>
 
 
