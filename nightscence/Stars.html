@@ -10,6 +10,7 @@
 
         body{
             background-image: linear-gradient(#444,black);
+            overflow: hidden;
         }
         #ground{
             background-image: linear-gradient(black, green);
@@ -100,10 +101,29 @@
         .star{
              background: url('4pointStarW.png') repeat;
              background-size: contain;
-             height: 15px;
-             width: 15px;
+             height: 7px;
+             width: 7px;
             position: absolute;
+
         }
+
+        #shootingStar{
+            background: url('shootingStar.png') no-repeat center center;
+            background-size: contain;
+            height: 100px;
+            width: 100px;
+            position: absolute; 
+            bottom: 500px;
+            left: 650px;
+            animation-name: shine ;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            
+
+        }
+@keyframes shine {
+   {background-color:white; left:200px; top:0px;}
+}
 
 
 
@@ -117,6 +137,7 @@
             <div id='door'></div>
             <div id='window'></div>
             <div id='window2'></div>
+            <div id='shootingStar'></div>
          </div>
          <div class='roof'></div>
          <div id='moon'></div>
