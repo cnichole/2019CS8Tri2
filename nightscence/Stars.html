@@ -37,7 +37,7 @@
             border-right: 205px solid transparent;
             border-bottom: 150px solid #7aadff;
             position: relative;
-            bottom: -150px;
+            bottom: -50px;
             right: -40px;
 
         }
@@ -112,17 +112,19 @@
             background-size: contain;
             height: 100px;
             width: 100px;
-            position: absolute; 
-            bottom: 500px;
-            left: 650px;
+            position: relative; 
+            top: 10px;
+            left: 20px;
             animation-name: shine ;
-            animation-duration: 4s;
+            animation-duration: 5s;
             animation-iteration-count: infinite;
             
 
         }
 @keyframes shine {
-   {background-color:white; left:200px; top:0px;}
+    0%   {opacity: 4; left: 200px; top: 0px;}
+  25%  {opacity: 0; left: 1000px; top: 0px;}
+  100% {opacity: 0; left: 1000px; top: 0px}
 }
 
 
@@ -132,12 +134,13 @@
 <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
     </head>
         <body>
+        <div id='shootingStar'></div>
          <div id='ground'></div>
          <div id='brick'>
             <div id='door'></div>
             <div id='window'></div>
             <div id='window2'></div>
-            <div id='shootingStar'></div>
+            
          </div>
          <div class='roof'></div>
          <div id='moon'></div>
