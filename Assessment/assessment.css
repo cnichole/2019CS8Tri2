@@ -14,8 +14,8 @@
         }
         .type1{
             background-color: orange;
-             font-family: "Kranky";
              font-size: 50px;
+               font-family: "Kranky";
 
            
         }
@@ -27,7 +27,7 @@
 
         #line{
             background-color: purple;
-           height: 100px;
+           height: 50px;
            width: 810px;
            border-radius: 100px;
 
