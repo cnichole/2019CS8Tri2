@@ -1,5 +1,5 @@
 $(".type1").click(
-    function myFunction(){
+    function(){
     alert("hello");
     }
 );
