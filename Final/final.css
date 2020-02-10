@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.sky{
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+#sunny{
+    background: url('unnamed.png') no-repeat center center;
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    background-size: contain;
+}
+
+#storm{
+    background: url('stormy weather.jpg') no-repeat center center;
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+    background-size: contain;
+
+}
+
+#main{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
